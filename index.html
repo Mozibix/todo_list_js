@@ -43,7 +43,7 @@
               <input
                 type="radio"
                 name="category"
-                value="personal"
+                value="personal"  
                 id="category2"
               />
               <span class="bubble personal"></span>
@@ -52,41 +52,14 @@
           </div>
           <input type="submit" value="Add Todo" />
         </form>
-      </section>
+      </section>  
 
-      <div class="todo-list">
-        <h3>todo list</h3>
-        <div class="list" id="todo-list">
-          <div class="todo-item">
-            <label>
-              <input type="checkbox" />
-              <span class="bubble business"></span>
-            </label>
-            <div class="todo-content">
-              <input type="text" value="Make a Video" readonly />
-            </div>
-
-            <div class="actions">
-              <button class="edit">edit</button>
-              <button class="delete">delete</button>
-            </div>
-          </div>
-          <div class="todo-item">
-            <label>
-              <input type="checkbox" />
-              <span class="bubble personal"></span>
-            </label>
-            <div class="todo-content">
-              <input type="text" value="Get milk" readonly />
-            </div>
-
-            <div class="actions">
-              <button class="edit">edit</button>
-              <button class="delete">delete</button>
-            </div>
-          </div>
+      <section>
+        <div class="todo-list">
+          <h3>todo list</h3>
+          <div class="list" id="todo-list"></div>
         </div>
-      </div>
+      </section>
     </main>
     <script src="todo.js"></script>
   </body>
